@@ -60,24 +60,3 @@ router.delete('/', (req, res) => {
 module.exports = router;
 
 
-// router.put('/:id', (req, res) => {
-//   console.log(req.params)
-//   console.log(req.body)
-//     let reqId = req.params.id;
-//     let newDescription = req.body.description;
-
-//       let query = `
-//       UPDATE "treats"
-//       SET "description" = $2, "name" = $3
-//       WHERE "id" = $1;
-//       `;
-    
-//     pool.query(query, [reqId, newDescription, req.body.name])
-//     .then((result) => {
-//       res.send(result.rows);
-//     })
-//     .catch((error) => {
-//       console.log(error);
-//       res.sendStatus(500);
-//     });
-// });

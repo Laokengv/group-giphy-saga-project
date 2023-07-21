@@ -15,7 +15,7 @@ function App(props) {
       <Route exact path='/Favorites'>
         <FavoritesView/>
       </Route>
-      <Route exact path='/Favorites'>
+      <Route exact path='/Display'>
         <DisplayViews />
       </Route>
       
